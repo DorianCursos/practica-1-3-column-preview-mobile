@@ -16,28 +16,20 @@ body {
   margin: 0;
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
-  color: #fff;
-}
-
-h1,
-h2,
-h3 {
-  font-family: 'Big Shoulders Display', sans-serif;
-  font-weight: 700;
-}
-
-.main {
-  padding: 24px;
+  font-size: 0.9375rem;
 }
 
 .card {
-  padding: 49px;
-  height: 442px;
+  position: relative;
+  width: 327px;
+  height: 27.625rem;
+  padding: 48px;
+  color: #f2f2f2;
 }
 
 .card-orange {
-  border-radius: 8px 8px 0 0;
   background-color: #e28625;
+  border-radius: 8px 8px 0 0;
 }
 
 .card-blue {
@@ -45,38 +37,42 @@ h3 {
 }
 
 .card-green {
-  border-radius: 0 0 8px 8px;
   background-color: #004140;
+  border-radius: 0 0 8px 8px;
 }
 
 .card-icon-circle {
   position: relative;
   width: 40px;
   height: 40px;
-  margin-bottom: 35px;
   border-radius: 50%;
-  background-color: rgb(0 0 0 /0.3);
+  background-color: rgb(0 0 0 / 0.2);
+  margin-bottom: 35px;
 }
 
 .card-icon {
   position: absolute;
-  top: 12px;
+  top: 11px;
   left: 20px;
 }
 
 .card-title {
-  font-size: 40px;
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-weight: 700;
   margin-bottom: 25px;
+  font-size: 2.5rem;
 }
 
 .card-text {
-  font-size: 15px;
-  line-height: 25px;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
+  color: rgb(255 255 255 / 0.75);
+  line-height: 1.5625rem;
 }
 
 .card-button {
-  padding: 12px 32px;
+  position: absolute;
+  bottom: 3rem;
+  padding: 0.6875rem 2rem;
   background-color: #fff;
   border-radius: 25px;
 }
